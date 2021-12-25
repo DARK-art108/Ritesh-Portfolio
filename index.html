@@ -1,15 +1,286 @@
----
-layout: home
-search_exclude: true
-image: images/logo.png
----
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Ritesh Yadav | Deep Learning, Computer Vision, DevOps, Cloud-Native etc.</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Ritesh Yadav" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Deep Learning, Computer Vision, NLP, DevOps, Cloud-Native etc." />
+<meta property="og:description" content="Deep Learning, Computer Vision, NLP, DevOps, Cloud-Native etc." />
+<link rel="canonical" href="http://0.0.0.0:4000/" />
+<meta property="og:url" content="http://0.0.0.0:4000/" />
+<meta property="og:site_name" content="Sayak Paul" />
+<script type="application/ld+json">
+{"description":"Deep Learning, Computer Vision, NLP, DevOps, Cloud-Native etc.","@type":"WebSite","url":"http://0.0.0.0:4000/","name":"Ritesh Yadav","headline":"Ritesh Yadav","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://0.0.0.0:4000/feed.xml" title="Ritesh Yadav" /><link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Ritesh Yadav | Deep Learning, Computer Vision, DevOps, Cloud-Native etc.</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Ritesh Yadav" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Deep Learning, Computer Vision, NLP, DevOps, Cloud-Native etc." />
+<meta property="og:description" content="Deep Learning, Computer Vision, NLP, DevOps, Cloud-Native etc." />
+<link rel="canonical" href="http://0.0.0.0:4000/" />
+<meta property="og:url" content="http://0.0.0.0:4000/" />
+<meta property="og:site_name" content="Ritesh Yadav" />
+<script type="application/ld+json">
+{"description":"Deep Learning, Computer Vision, NLP, DevOps, Cloud-Native etc.","@type":"WebSite","url":"http://0.0.0.0:4000/","name":"Ritesh Yadav","headline":"Ritesh Yadav","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
 
-This site is built with [fastpages](https://github.com/fastai/fastpages), An easy to use blogging platform with extra features for Jupyter Notebooks.
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="http://0.0.0.0:4000/feed.xml" title="Ritesh Yadav" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
 
-![]({{site.baseurl}}/images/diagram.png "https://github.com/fastai/fastpages")
 
-[fastpages](https://github.com/fastai/fastpages) automates the process of creating blog posts via GitHub Actions, so you don't have to fuss with conversion scripts.  A full list of features can be found on [GitHub](https://github.com/fastai/fastpages).  
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
 
-You can edit the `index.html` file to change this content.
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head><body><header class="site-header">
 
-# Posts
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Ritesh Yadav</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About Me</a><a class="page-link" href="/authoring/">Authoring</a><a class="page-link" href="/education/">Education</a><a class="page-link" href="/interviews/">Interviews</a><a class="page-link" href="/research/">Research</a><a class="page-link" href="/talksseminarsworkshops/">Talks/Seminars/Workshops</a><a class="page-link" href="/xyz/">XYZ</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="home"><center>
+  <figure>
+    <img src="https://raw.githubusercontent.com/sayakpaul/portfolio/master/images/ritesh.jpeg" />
+    <figcaption>Credits: <a href="https://www.linkedin.com/in/manvendra-singh-rajawat-518946189/">Manvendra Singh</a></figcaption>
+  </figure>
+</center>
+
+<p>I am Ritesh Yadav. This is my personal website and it contains my blog posts, coordinates, interviews, etc. Know more about me from <a href="">here</a>.</p>
+
+<p>This site is built with <a href="https://github.com/fastai/fastpages">fastpages</a>, an easy to use blogging platform with extra features for Jupyter Notebooks.</p>
+
+<p>My external articles and other publishing engagements (like books, liveProjects, etc.) are listed <a href="/authoring/">here</a>. Decks
+from my speaking engagements are listed <a href="/talksseminarsworkshops/">here</a>. Interviews are <a href="/interviews/">here</a>.</p>
+
+<h1 id="news">News</h1>
+
+<ul>
+  <!-- <li>New work with <a href="http://www.pinyuchen.com/">Pin-Yu Chen</a> (IBM Research): <a href="https://arxiv.org/abs/2105.07581">Vision Transformers are Robust Learners</a>.</li>
+  <li>New work with <a href="https://sidgan.github.io/siddhaganju">Siddha Ganju</a> (NVIDIA): <a href="https://arxiv.org/abs/2107.08369">Flood Segmentation on Sentinel-1 SAR
+Imagery with Semi-Supervised Learning</a>. This work is based on our winning solution
+(<a href="https://drive.google.com/file/d/1U4JTAYChV6PHwDA87gd2FJ04843YA6bN/view?usp=sharing">first runners-up</a>) submitted to
+<a href="https://nasa-impact.github.io/etci2021/">this competition</a> organized by the NASA Impact team. We also
+made it to four NeurIPS 2021 workshops: AI for Science: Mind the Gaps, Tackling Climate Change with Machine
+Learning, Women in ML, and Machine Learning and the Physical Sciences</li>
+  <li><a href="https://keras.io/examples/vision/masked_image_modeling/">Masked image modeling with Autoencoders</a> (joint
+work with <a href="https://twitter.com/arig23498">Aritra Roy Gosthipaty</a>)</li>
+  <li>New project: <a href="https://github.com/soumik12345/point-cloud-segmentation">Point cloud segmentation in the wild</a>. We provide
+an implementation of PointNet in TensorFlow for segmenting 3D point clouds along with pre-trained models. Our training scripts are fully
+compatible with TPUs allowing you to experiment faster. This is a joint work with <a href="https://github.com/soumik12345">Soumik Rakshit</a>.</li>
+  <li>New post from the GCP blog: CI/CD for Machine Learning - <a href="https://cloud.google.com/blog/topics/developers-practitioners/model-training-cicd-system-part-i">Part I</a>,
+<a href="https://cloud.google.com/blog/topics/developers-practitioners/model-training-cicd-system-part-ii">Part II</a> (joint work with
+<a href="https://github.com/deep-diver">Chansung Park</a>).</li> -->
+</ul>
+
+<p>To know about my projects, please refer to <a href="https://github.com/DARK-art108">my GitHub profile</a>.</p>
+
+<p>Apart from the following blog posts, I try to contribute to other platforms in the form of writing. Please refer <a href="/authoring/">here</a>
+for more details.</p>
+
+<h1 id="posts">Posts</h1>
+
+
+
+  
+
+  <!-- Hide posts if front matter flag hide:true -->
+  
+  
+
+  <ul class="post-list"><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
+        <img class="image-preview " src="/images/distributed_training.png" />
+      </div><div class="col-8 d-table-cell p-3">
+        <h3>
+          <a class="post-link" href="/distributed-training/">
+            Distributed Training in TensorFlow with AI Platform &amp; Docker
+          </a>
+        </h3>
+        <p class="post-meta-description">Training a model using distributed training with AI Platform and Docker.</p>
+          <p class="post-meta">Apr 6, 2021</p>
+      </div>
+  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
+        <img class="image-preview " src="/images/opencv_m1.png" />
+      </div><div class="col-8 d-table-cell p-3">
+        <h3>
+          <a class="post-link" href="/install-opencv-m1/">
+            Building and Installing OpenCV 4.5.0 on an M1 Mac
+          </a>
+        </h3>
+        <p class="post-meta-description">This post shows how to build and install OpenCV 4.5.0 on a MacBook Pro that comes with an M1 chip.</p>
+          <p class="post-meta">Jan 1, 2021</p>
+      </div>
+  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
+        <img class="image-preview " src="/images/text_detector_benchmark.png" />
+      </div><div class="col-8 d-table-cell p-3">
+        <h3>
+          <a class="post-link" href="/optimizing-text-detectors/">
+            A Battle of Text Detectors for Mobile Deployments: CRAFT vs. EAST
+          </a>
+        </h3>
+        <p class="post-meta-description">This post compares two Deep Learning-based text detectors CRAFT and EAST with respect to deployment-specific requirements.</p>
+          <p class="post-meta">Nov 27, 2020</p>
+      </div>
+  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
+        <img class="image-preview " src="/images/benchmark.png" />
+      </div><div class="col-8 d-table-cell p-3">
+        <h3>
+          <a class="post-link" href="/mobiledet-optimization/">
+            Optimizing MobileDet for Mobile Deployments
+          </a>
+        </h3>
+        <p class="post-meta-description">Learn about the criticalities of effectively optimizing MobileDet object detectors for mobile deployments.</p>
+          <p class="post-meta">Sep 29, 2020</p>
+      </div>
+  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
+        <img class="image-preview " src="/images/maker.png" />
+      </div><div class="col-8 d-table-cell p-3">
+        <h3>
+          <a class="post-link" href="/mlapis-maker/">
+            The Maker Philosophy with ML APIs
+          </a>
+        </h3>
+        <p class="post-meta-description">Practising being a maker with Google Cloud Platform’s ML APIs.</p>
+          <p class="post-meta">Sep 25, 2020</p>
+      </div>
+  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
+        <img class="image-preview " src="/images/montage_vrl.png" />
+      </div><div class="col-8 d-table-cell p-3">
+        <h3>
+          <a class="post-link" href="/visual-representation-learning/self-supervised-learning/computer-vision/2020/08/02/favorite-recipes-vision.html">
+            A few favorite recipes in computer vision &amp; deep learning
+          </a>
+        </h3>
+        <p class="post-meta-description">This blog post enlists a few of my favorite recipes in deep learning in the context of computer vision (as of August 2020).</p>
+          <p class="post-meta">Aug 2, 2020</p>
+      </div>
+  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
+        <img class="image-preview " src="/images/speed.png" />
+      </div><div class="col-8 d-table-cell p-3">
+        <h3>
+          <a class="post-link" href="/tf.keras/tensorrt/tensorflow/2020/07/01/accelerated-inference-trt.html">
+            Using TensorRT for accelerated deep learning inference
+          </a>
+        </h3>
+        <p class="post-meta-description">Accelerating inference of TensorFlow models using TensorRT.</p>
+          <p class="post-meta">Jul 1, 2020</p>
+      </div>
+  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
+        <img class="image-preview " src="/images/augmentation.png" />
+      </div><div class="col-8 d-table-cell p-3">
+        <h3>
+          <a class="post-link" href="/tf.keras/data_augmentation/image/2020/05/10/augmemtation-recipes.html">
+            Different data augmentation recipes in `tf.keras` for image classification
+          </a>
+        </h3>
+        <p class="post-meta-description">Learn about different ways of doing data augmentation when training an image classifier in `tf.keras`.</p>
+          <p class="post-meta">May 10, 2020</p>
+      </div>
+  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
+        <h3>
+          <a class="post-link" href="/blogs/sharing/2020/04/20/sharing-work-effectively.html">
+            Sharing your work online effectively
+          </a>
+        </h3>
+        <p class="post-meta-description">A few tips on sharing your work online effectively.</p>
+          <p class="post-meta">Apr 20, 2020</p>
+      </div>
+  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-4 d-table-cell p-3 v-align-middle">
+        <img class="image-preview " src="/images/lambda_seq_model.png" />
+      </div><div class="col-8 d-table-cell p-3">
+        <h3>
+          <a class="post-link" href="/tf.keras/preprocessing/2020/04/13/embedding-image-preprocessing-functions.html">
+            Embedding an image preprocessing function in a `tf.keras` model
+          </a>
+        </h3>
+        <p class="post-meta-description">Learn how to embed an image preprocessing function in a `tf.keras` model.</p>
+          <p class="post-meta">Apr 13, 2020</p>
+      </div>
+  </div></li></ul>
+
+    </div>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Deep Learning, Computer Vision, DevOps, Cloud-Native etc.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/DARK-art108" title="Ritesh Yadav"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/" title=""><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

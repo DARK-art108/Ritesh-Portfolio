@@ -29,7 +29,7 @@
   
       ,"page1": {
           "title": "About Me",
-          "content": "I am primarily interested in image recognition and generation tasks which is what my professional work also requires. I am also interested in other areas of Deep Learning such as model optimization, semi-supervision, self-supervision, and model robustness. I enjoy implementing research ideas, sometimes incorporating them in practical applications, and communicating my implementation details through articles. . I advocate for highly readable and self-contained code. Python is what I primarily use for programming. I am proficient in TensorFlow and a beginner in PyTorch. I usually train models on Google Cloud Platform / Colaboratory / Kaggle facilitating TPUs when required. . I have a flair for open-source initiatives. In particular, I have made contributions to TensorFlow Hub, Keras Examples, TensorFlow Addons, and Neural Structured Learning. Off the work, I like writing technical articles, working on applied Machine Learning ideas, and giving talks at developer meetups and conferences. . For my community contributions and innovative projects, the Intel Software Innovator Program recognized me as one of their top innovators in 2019. For my open-source contributions, I received the Google Open Source Peer Bonus Award in 2020 and 2021, TensorFlow Top Contributor Award in 2021. . | | | | . Timeline: . Machine Learning Engineer, Carted (June 2021 - Present) | Deep Learning Associate, PyImageSearch (June 2019 - June 2021) | Data Science Instructor, DataCamp (August 2018 - June 2019) (on contract) | Software Engineer, TCS Research and Innovation (January 2018 - August 2018) | Software Engineer, Tata Consultancy Services Limited (July 2017 - January 2018) | Intern, CareerIn (Dec, 2016 - Feb, 2017) | . Badges I proudly endorse: . . An honour to be their son 🙂 . Tapas Kumar Paul | Baby Paul | .",
+          "content": "I am primarily interested in Natural Language Processing, Computer Vision, and DevOps. My key skills are Text Generation, Prompt Generation, Semantic Similarity ,Object Detection, Amazon Web Services.I am also intrested in building end to end operation pipelines for productioning of AI Models.I have also used various DevOps tools like Terraform,Kubernetes, Docker, Jenkins, Tensorflow Extended, Kubeflow etc. . I advocate for highly readable and self-contained code. Python is what I primarily use for programming. I am proficient in TensorFlow and a beginner in PyTorch. I usually train models on Google Colab Notebook and on my local workstation(Acer Predator-RTX 3060). . I am currently working as a Junior Data Scientist at Ineuron.ai where I am working on building a Natural Language Processing model and deploying them to Cloud Platform like AWS, GCP, Azure. . I have contributed to various F/OSS projects. In particular, I have made contributions to Porter, Meshery, Thanos-io, and Tensorflow. Off the work, I like writing technical articles, working on applied Machine Learning ideas,Deploying and Scaling ML Models and giving talks at developer meetups and conferences. .",
           "url": "https://dark-art108.github.io/Ritesh-Portfolio/about/",
           "relUrl": "/about/",
           "date": ""
@@ -38,8 +38,6 @@
   
 
   
-
-  
   
 
   
@@ -59,7 +57,7 @@
   
 
   
-      ,"page10": {
+      ,"page9": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://dark-art108.github.io/Ritesh-Portfolio/robots.txt",
